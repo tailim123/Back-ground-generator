@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container h1 {
+  opacity: 0.5;
+  letter-spacing: 2rem;
+  font-size: 5rem;
+}
+
+.hero-form {
+  margin: 2rem 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-form input {
+  margin: 1rem;
+}
